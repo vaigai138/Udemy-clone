@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy</title>
+    <link rel="icon" href="udemylogo.png">
+    <link rel="stylesheet" href="style.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="home-logo.png" width="100px" onclick="window.location.href = 'index.html'">
+        <div class="home-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text">
+        </div>
+
+        <div class="auth-button">
+            <button class="login-button" onclick="window.location.href = 'login.html'">Log in</button>
+            <button class="signup-button" onclick="window.location.href = 'signup.html'">Sign up</button>
+            <div class="menu-bar" >
+                <i class="fa-solid fa-magnifying-glass" style="margin-right: 10px;"></i>
+                <i class="fa-solid fa-bars" onclick="shownav()"></i>
+                
+            </div>
+        </div>
+
+
+    </nav>
+
+    <div class="side-navbar">
+        <p class="x-bar" onclick="closenav()">
+            <i class="fa-regular fa-circle-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="login.html">Login</a></p>
+            <p class="side-navbar-link"><a href="signup.html">Signup</a></p>
+            <p class="side-navbar-link"><a href="http://linkedin.com/in/vaigai-vendhan-9b142b258">About me</a></p>
+        </div>
+
+    </div>
+
+
+
+    <div class="login-page">
+        <div class="login-form">
+            <h3>Sign up and start learning</h3>
+            <input type="text" placeholder="Full name"><br>
+            <input type="text" placeholder="Email"><br>
+            <input type="text" placeholder="Password"><br>
+            <button class="login-form-button">Signup</button>
+            
+            <hr style="margin-top: 10px;">
+            <p style="font-size: smaller; text-align: center;margin-top: 10px;">By signing up, you agree to our Terms<br> of Use and Privacy Policy.</p>
+            <p style="text-align: center;margin-top: 10px;">Already have an account? <a href="login.html">Log in</a></p>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container-1">
+            <h4>Top companies choose <span style="color: blueviolet;">Udemy Business</span> build in-demand career
+                skills.</h4>
+            <img src="assests/nasdaq-light.svg">
+            <img src="assests/volkswagen-light.svg" alt="">
+            <img src="assests/box-light.svg" alt="">
+            <img src="assests/netapp-light.svg" alt="">
+            <img src="assests/eventbrite-light.svg" alt="">
+
+        </div>
+        <hr>
+
+        <div class="footer-container-2">
+
+            <div class="footer-links">
+                <a href="">Udemy Business</a>
+                <a href="">Teach on Udemy</a>
+                <a href="">Get the app</a>
+                <a href="">About us</a>
+                <a href="">Contact us</a>
+            </div>
+
+            <div class="footer-links">
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="">Help and Support</a>
+                <a href="">Affliate</a>
+                <a href="">Investorss</a>
+            </div>
+
+            <div class="footer-links">
+                <a href="">Teams</a>
+                <a href="">Privacy policy</a>
+                <a href="">Cookie settings</a>
+                <a href="">Sitemap</a>
+                <a href="">Accessibility statement</a>
+            </div>
+            <img src="assests/logo-udemy-inverted.svg" width="8%" style="margin-left: 20px; margin-top: 20px;">
+            <p style="color: white;">2024 vaigai vendhan</p>
+        </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
