@@ -577,8 +577,7 @@ body{
         display: flex;
         flex-wrap: nowrap; /* Ensure flex items stay in a single row */
         overflow-x: auto;
-        scrollbar-width: thin; /* Force a thin scrollbar */
-        scrollbar-color: rgba(0, 0, 0, 0.0) transparent;
+       
     }
     .course-types div{
         flex: 0 0 auto;
@@ -587,24 +586,21 @@ body{
         display: flex;
         flex-wrap: nowrap; /* Ensure flex items stay in a single row */
         overflow-x: auto;
-        scrollbar-width: thin; /* Force a thin scrollbar */
-        scrollbar-color: rgba(0, 0, 0, 0.0) transparent;
+        
 
     }
     .course-container-1{
         display: flex;
         flex-wrap: nowrap; /* Ensure flex items stay in a single row */
         overflow-x: auto;
-        scrollbar-width: thin; /* Force a thin scrollbar */
-        scrollbar-color: rgba(0, 0, 0, 0.0) transparent;
+       
     }
 
     .companies{
         display: flex;
         flex-wrap: nowrap; /* Ensure flex items stay in a single row */
         overflow-x: auto;
-        scrollbar-width: thin; /* Force a thin scrollbar */
-        scrollbar-color: rgba(0, 0, 0, 0.0) transparent;
+       
         
     }
     .companies img{
